@@ -16,16 +16,8 @@ class Home extends StatelessWidget {
         backgroundColor: Colors.amber[600],
       ),
       body: Center(
-        child: Text(
-          'Hello, Rizki!',
-          style: TextStyle(
-            fontSize: 24.0,
-            fontWeight: FontWeight.bold,
-            letterSpacing: 2.5,
-            color: Colors.grey[600],
-            fontFamily: 'IndieFlower',
-          ),
-        ),
+        child: Image.asset('assets/cat-1.jpg'),
+        // child: Image.network('https://images.unsplash.com/photo-1518288774672-b94e808873ff?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=678&q=80'),
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: () {},
