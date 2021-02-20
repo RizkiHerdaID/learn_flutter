@@ -15,34 +15,15 @@ class Home extends StatelessWidget {
         centerTitle: true,
         backgroundColor: Colors.amber[600],
       ),
-      body: Center(
-        // child: Icon(
-        //   Icons.airport_shuttle,
-        //   color: Colors.lightBlue,
-        //   size: 50.0,
-        // )
-        // child: FlatButton(
-        //   onPressed: () {
-        //     print('You clicked me');
-        //   },
-        //   child: Text('Click me'),
-        //   color: Colors.lightBlue,
-        // ),
-        // child: RaisedButton.icon(
-        //     onPressed: () {},
-        //     icon: Icon(
-        //       Icons.mail
-        //     ),
-        //     label: Text('Mail me'),
-        //     color: Colors.amber,
-        // ),
-        child: IconButton(
-          onPressed: () {
-            print('You clicked me');
-          },
-          icon: Icon(Icons.alternate_email),
-          color: Colors.amber,
-        ),
+      // body: Container(
+      //   padding: EdgeInsets.fromLTRB(10.0, 20.0, 30.0, 40.0),
+      //   margin: EdgeInsets.all(30.0),
+      //   color: Colors.grey[400],
+      //   child: Text('Hello'),
+      // ),
+      body: Padding(
+        padding: EdgeInsets.all(90.0),
+        child: Text('Hello Rizki'),
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: () {},
